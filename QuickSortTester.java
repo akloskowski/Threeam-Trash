@@ -10,21 +10,28 @@
 public class QuickSortTester{
 
     public static void main( String[] args ){
+        
+        for(int i = 1, i <= 5; i++){
+            System.out.print("," + i);
+        }
+        for ( int n = 1000; n < 10000; n += 100 ) {
+            System.out.print(n + ",");
+            for(int i = 0; i < 5; i++){
+                QuickSort data = new QuickSort();
 
-	for ( int n = 1000; n < 10000; n += 100 ) {
-	    QuickSort data = new QuickSort();
-	   
-	    int d[] = data.buildArray(n,n);
-	    data.shuffle(d);
-	    
-	    double a = System.currentTimeMillis();	     
+                int d[] = data.buildArray(n,n);
+                data.shuffle(d);
 
-	    QuickSort.qsort(d);
+                double a = System.currentTimeMillis();	     
 
-	    double b = System.currentTimeMillis();
+                QuickSort.qsort(d);
 
-	    System.out.println((b-a));
-	    
-       	}	
+                double b = System.currentTimeMillis();
+
+                System.out.print((b-a + ","));
+                }
+                System.out.print("\b");
+
+        }	
     }
 }
