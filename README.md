@@ -16,5 +16,6 @@ To test the speed of our QuickSort implementation, we created a QuickSortTester.
 
 ![](realchart.png)
 
-The above chart shows the results for the tests that we ran. The chart is shaped in a step function (probably because of lack of accuracy in the digits). The runtime was vacillating up and down, but generally it was increasing.
+The above chart shows the results for the tests that we ran. The chart is shaped in a step function (probably because of lack of accuracy in the digits). The runtime was vacillating up and down, but generally it was increasing. The graph for average time was also showing a rather linear trend.
+
 #### Conclusions
