@@ -13,4 +13,6 @@ The goal of this project is to create an implementation of QuickSort and measure
 #### Experiment Methodology
 To test the speed of our QuickSort implementation, we created a QuickSortTester. Using the system's millisecond clock, it randomly generates arrays of varying lengths and uses QuickSort to sort the arrays, measuring the time it takes for the method to complete. It prints out each time measurement into a csv file with each row containing a given array length followed with 5 cells of measured runtimes from 5 different tests.
 #### Results
+![]chart.png
+
 #### Conclusions
