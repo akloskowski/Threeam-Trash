@@ -11,10 +11,11 @@ public class QuickSortTester{
 
     public static void main( String[] args ){
         
-        for(int i = 1; i <= 5; i++){
+	 for(int i = 1; i <= 5; i++){
             System.out.print("," + i);
         }
-        for ( int n = 1000; n < 10000; n += 100 ) {
+	 System.out.print("\n");
+        for ( int n = 10000; n <= 150000; n += 1000 ) {
             System.out.print(n + ",");
             for(int i = 0; i < 5; i++){
                 QuickSort data = new QuickSort();
@@ -30,7 +31,7 @@ public class QuickSortTester{
 
                 System.out.print((b-a + ","));
                 }
-                System.out.print("\b");
+                System.out.print("\b\n");
 
         }	
     }
